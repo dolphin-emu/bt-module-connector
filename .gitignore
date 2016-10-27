@@ -1,0 +1,4 @@
+# Ignore image thumbnail files created by windows
+Thumbs.db
+# Ignore Finder view option files created by OS X
+.DS_Store
