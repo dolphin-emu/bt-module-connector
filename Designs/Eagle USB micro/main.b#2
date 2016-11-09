@@ -144,8 +144,8 @@
 <wire x1="17.3" y1="0" x2="17.3" y2="25.428" width="0" layer="20"/>
 <wire x1="17.3" y1="25.428" x2="0" y2="25.428" width="0" layer="20"/>
 <wire x1="0" y1="25.428" x2="0" y2="0" width="0" layer="20"/>
-<dimension x1="0" y1="25.4" x2="17.3" y2="25.428" x3="8.65" y3="29.972" textsize="1.778" layer="1" dtype="horizontal"/>
-<dimension x1="17.272" y1="0" x2="17.3" y2="25.428" x3="23.876" y3="12.714" textsize="1.778" layer="1" dtype="vertical"/>
+<text x="5.08" y="16.002" size="1.778" layer="21" font="vector" rot="R90">Tim V1
+wii BL</text>
 </plain>
 <libraries>
 <library name="SparkFun-PowerIC">
@@ -1610,13 +1610,13 @@ Your Eurocircuits Team
 </element>
 <element name="U$1" library="wiiBL" package="MOLEX_0541020164" value="MOLEX_0541020164MOLEX" x="7.074" y="18.464"/>
 <element name="USB" library="GeekAmmo" package="USB-MICRO-MOLEX-105017-0001" value="USB-CON-5PIN-105017-0001" x="6.369" y="4.183"/>
-<element name="C1" library="rcl" package="C0805" value="" x="2.806" y="7.152" smashed="yes">
-<attribute name="NAME" x="0.774" y="3.596" size="1.27" layer="25"/>
-<attribute name="VALUE" x="1.536" y="4.612" size="1.27" layer="27"/>
+<element name="C1" library="rcl" package="C0805" value="10uF" x="2.806" y="7.152" smashed="yes">
+<attribute name="NAME" x="1.028" y="3.596" size="1.27" layer="25"/>
+<attribute name="VALUE" x="1.028" y="2.072" size="1.27" layer="27"/>
 </element>
-<element name="C2" library="rcl" package="C0805" value="" x="8.914" y="15.223" smashed="yes">
-<attribute name="NAME" x="11.2" y="14.715" size="1.27" layer="25"/>
-<attribute name="VALUE" x="7.644" y="12.683" size="1.27" layer="27"/>
+<element name="C2" library="rcl" package="C0805" value="100uF" x="8.914" y="15.223" smashed="yes">
+<attribute name="NAME" x="11.2" y="16.493" size="1.27" layer="25"/>
+<attribute name="VALUE" x="11.2" y="14.715" size="1.27" layer="27"/>
 </element>
 </elements>
 <signals>
@@ -1701,6 +1701,16 @@ Your Eurocircuits Team
 <signal name="N$2">
 </signal>
 </signals>
+<errors>
+<approved hash="3,1,7707750575057707"/>
+<approved hash="3,1,7707750575057707"/>
+</errors>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
