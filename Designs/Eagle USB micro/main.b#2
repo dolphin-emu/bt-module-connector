@@ -140,7 +140,6 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="17.3" y2="0" width="0" layer="20"/>
 <wire x1="17.3" y1="0" x2="17.3" y2="25.428" width="0" layer="20"/>
 <wire x1="17.3" y1="25.428" x2="0" y2="25.428" width="0" layer="20"/>
 <wire x1="0" y1="25.428" x2="0" y2="0" width="0" layer="20"/>

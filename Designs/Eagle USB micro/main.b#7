@@ -556,6 +556,7 @@ design rules under a new name.</description>
 <wire x1="11.66" y1="3.3" x2="11.66" y2="4.31" width="0.254" layer="1"/>
 </signal>
 <signal name="3V3">
+<contactref element="5&gt;3V3" pad="2"/>
 <contactref element="5&gt;3V3" pad="4"/>
 <contactref element="U$1" pad="P6"/>
 <contactref element="U$1" pad="P7"/>
@@ -572,6 +573,7 @@ design rules under a new name.</description>
 <wire x1="15.2" y1="16.5112" x2="15.2" y2="22.29" width="0.254" layer="1"/>
 <wire x1="18.3594" y1="16.5112" x2="15.2" y2="16.5112" width="0.254" layer="1"/>
 <wire x1="15.2" y1="16.5112" x2="15.2" y2="16.4" width="0.254" layer="1"/>
+<wire x1="4.5712" y1="14.1" x2="10.769" y2="14.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SYNC">
 <contactref element="SYNC" pad="4"/>
