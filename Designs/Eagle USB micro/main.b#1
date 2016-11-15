@@ -140,11 +140,12 @@
 </layers>
 <board>
 <plain>
-<wire x1="17.3" y1="0" x2="17.3" y2="25.428" width="0" layer="20"/>
-<wire x1="17.3" y1="25.428" x2="0" y2="25.428" width="0" layer="20"/>
+<wire x1="17.272" y1="0" x2="17.272" y2="25.428" width="0" layer="20"/>
+<wire x1="17.272" y1="25.428" x2="0" y2="25.428" width="0" layer="20"/>
 <wire x1="0" y1="25.428" x2="0" y2="0" width="0" layer="20"/>
 <text x="5.08" y="16.002" size="1.778" layer="21" font="vector" rot="R90">Tim V1
-wii BL</text>
+wii BT</text>
+<wire x1="0" y1="0" x2="17.272" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="SparkFun-PowerIC">
@@ -1610,8 +1611,8 @@ Your Eurocircuits Team
 <element name="U$1" library="wiiBL" package="MOLEX_0541020164" value="MOLEX_0541020164MOLEX" x="7.074" y="18.464"/>
 <element name="USB" library="GeekAmmo" package="USB-MICRO-MOLEX-105017-0001" value="USB-CON-5PIN-105017-0001" x="6.369" y="4.183"/>
 <element name="C1" library="rcl" package="C0805" value="10uF" x="2.806" y="7.152" smashed="yes">
-<attribute name="NAME" x="1.028" y="3.596" size="1.27" layer="25"/>
-<attribute name="VALUE" x="1.028" y="2.072" size="1.27" layer="27"/>
+<attribute name="NAME" x="3.06" y="3.596" size="1.27" layer="25"/>
+<attribute name="VALUE" x="5.6" y="5.882" size="1.27" layer="27"/>
 </element>
 <element name="C2" library="rcl" package="C0805" value="100uF" x="8.914" y="15.223" smashed="yes">
 <attribute name="NAME" x="11.2" y="16.493" size="1.27" layer="25"/>
